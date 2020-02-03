@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Little Big Data</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="caption">
+            <img src="lb_logo.jpg" />
+        </div>
+
+        <div class="container">
+            <div class="container__title">Little Big Data</div>
+            <div class="container__text">
+                Тут можна завантажити "сирі" данні
+                <a href="LittleData.txt" download>[ Download RAW Data ]</a>
+            </div>
+            <div class="container__text">
+                Вони збережені у текстовому форматі, але мають колонки. Колонки відділені знаком
+                TAB. Значення колонок наступні:
+                <ol>
+                    <li>Дата</li>
+                    <li>Код номенклатури</li>
+                    <li>Назва номенклатури</li>
+                    <li>Кількість на початок дня</li>
+                    <li>Прихід</li>
+                    <li>Розхід</li>
+                    <li>Залишок на кінець дня</li>
+                </ol>
+            </div>
+            <div class="container__text">
+                Ці дані показують по-денний рух та залишки кожної одиниці номенклатури на початок та
+                кінець дня. Дані за 3 місяці (10-12/2019)
+            </div>
+            <div class="container__text">
+                Потрібно розрахувати обертовість кожного товару в кожному із трьох місяців.
+            </div>
+            <div class="container__text">
+                Обертовість товару - це усереднена кількість днів, за який увесь залишок товару буде
+                виданий, якщо не буде нових поступлень.
+            </div>
+            <div class="container__text">
+                Обертовість за певний період розраховується як "середньоденний залишок" /
+                "середньоденний розхід"
+            </div>
+        </div>
+    </body>
+</html>
